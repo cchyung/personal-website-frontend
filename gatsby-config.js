@@ -19,7 +19,7 @@ module.exports = {
         apiURL: process.env.DEPLOY_URL
           ? "https://cchyung-personal-portfolio.herokuapp.com"
           : "http://localhost:1337",
-        contentTypes: [`article`, `user`],
+        contentTypes: [`article`],
         queryLimit: 1000,
       },
     },
