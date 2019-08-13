@@ -1,0 +1,43 @@
+.header {
+    height: 100%;
+    position: fixed;
+    width: 250px;
+}
+
+.header-content {
+    margin: 50px 50px;
+}
+
+.nav
+{
+  margin: 80px 0;
+  margin-left: 0;
+}
+
+.nav-item
+{
+  list-style: none;
+  margin-bottom: 34px;
+  width: auto;
+}
+
+.social-icons
+{
+  width: 100%;
+}
+
+.social-icon 
+{
+  display: inline-block;
+  margin-right: -3px;
+  text-align: center; 
+  width: 33.33%;
+  vertical-align: top;
+}
+
+.social-icon img 
+{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,141 @@
+.article-content {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.cover {
+    display: inline-block;
+    height: auto;
+    margin: 50px auto;
+    display: block;
+    max-height: 400px;
+    width: 90%;
+
+}
+
+.title {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.subtitle {
+    font-style: oblique;
+    color: rgb(50, 50, 90);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.article-title {
+    margin-bottom: 40px;
+    width: 60%;
+    margin: 0 auto;
+    min-width: 650px;
+}
+
+.external-link 
+{
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  text-align: center; 
+  vertical-align: top;
+}
+
+.external-link-icon
+{
+  width: 30px;
+  display: inline-block;
+  margin: 5px auto;
+}
+
+.external-link-text-container {
+    display: inline-block;
+    margin-left: 10px;
+    width: 0;
+    height: 40px;
+    overflow: hidden;
+    transition: width ease-in-out 0.4s;
+}
+
+.external-link:hover .external-link-text-container {
+    width: 150px;
+    opacity: 1;
+}
+
+.external-link-text {
+    font-weight: 900;
+    text-decoration: underline;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+}
+
+
+.article-body {
+    margin: 0 auto;
+    width: 60%;
+    min-width: 650px;
+    text-align: left;
+}
+
+blockquote {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    padding-left: 30px;
+    background-color: rgb(240, 240, 240);
+    border-left: 4px grey solid;
+}
+
+/* .article-body h1, .article-body h2, .article-body h3, .article-body h4 {
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+} */
+
+.article-body h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.article-body h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.article-body h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.article-body h4 {
+    margin-top: 15px;
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.article-body p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+ol, ul {
+    margin-left: 30px;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    margin: 10px 0;
+    padding-left: 15px;
+}

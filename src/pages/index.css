@@ -1,0 +1,35 @@
+.home-page {
+    width: 75%;
+    max-width: 750px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.home-container {
+    text-align: center;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.prof-pic {
+    width: 400px;
+    display: block;
+}
+
+.intro-text {
+    margin-left: 40px;
+}
+
+#see-more-btn {
+    margin-top: 4%;
+    text-decoration: underline;
+    font-weight: 700;
+}

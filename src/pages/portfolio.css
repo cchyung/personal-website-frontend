@@ -1,0 +1,89 @@
+.portfolio-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:link {
+    font-weight: inherit;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.portfolio-container {
+    top: 100px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightblue;
+}
+
+.portfolio-item-wide {
+    width: 520px;
+}
+
+.portfolio-item-wide .portfolio-detail .portfolio-detail-content {
+    padding: 30px 20px;
+}
+
+.portfolio-detail {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow-wrap: break-word;
+    left: -100%;
+    transition: left 0.3s ease-out;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    z-index: 3; /* fix highlight not showing */
+}
+
+.portfolio-detail-content {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.portfolio-item:hover .portfolio-detail {
+    left: 0;
+}
+
+.portfolio-detail-content{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transition-delay: 0.3s;
+}
+
+.portfolio-item:hover .portfolio-detail-content {
+    opacity: 1;
+}
+
+.portfolio-detail p {
+    font-size: 12px;
+}
+
+.portfolio-detail h2 {
+    display: inline-block;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.portfolio-detail h3 {
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 7px 0;
+}
