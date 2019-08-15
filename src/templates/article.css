@@ -9,7 +9,8 @@
 .cover {
     display: inline-block;
     height: auto;
-    margin: 50px auto;
+    margin: 25px auto;
+    margin-bottom: 50px;
     display: block;
     max-height: 400px;
     width: 90%;
@@ -79,9 +80,15 @@
 
 .article-body {
     margin: 0 auto;
-    width: 60%;
+    width: 90%;
     min-width: 650px;
     text-align: left;
+}
+
+.article-body > p {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
 }
 
 blockquote {
@@ -124,7 +131,7 @@ blockquote {
 }
 
 .article-body > p > img {
-    height: 450px;
+    width: 100%;
     display: block;
     margin: 30px auto;
 }
