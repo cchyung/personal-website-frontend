@@ -96,34 +96,34 @@ blockquote {
     font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 } */
 
-.article-body h1 {
+.article-body > h1 {
     font-size: 24px;
     margin-top: 20px;
 }
 
-.article-body h2 {
+.article-body > h2 {
     margin-top: 20px;
     font-size: 20px;
 }
 
-.article-body h3 {
+.article-body > h3 {
     margin-top: 15px;
     font-size: 18px;
 }
 
-.article-body h4 {
+.article-body > h4 {
     margin-top: 15px;
     font-style: oblique;
     font-weight: 300;
     font-size: 16px;
 }
 
-.article-body p {
+.article-body > p {
     font-size: 16px;
     padding-bottom: 20px;
 }
 
-.article-body img {
+.article-body > img {
     height: 450px;
     display: block;
     margin: 30px auto;
