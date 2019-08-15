@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from 'gatsby'
 
 const PortfolioItem = (props) => {
-    let outerClass = (props.wide === 0) ? "portfolio-item" : "portfolio-item portfolio-item-wide"
+    let outerClass = (props.wide === true) ? "portfolio-item" : "portfolio-item portfolio-item-wide"
     console.log(outerClass)
     return(
         <div className= { outerClass } style={{ backgroundImage: `url(${props.icon})` }}>
