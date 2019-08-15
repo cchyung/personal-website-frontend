@@ -123,6 +123,12 @@ blockquote {
     padding-bottom: 20px;
 }
 
+.article-body img {
+    height: 450px;
+    display: block;
+    margin: 30px auto;
+}
+
 ol, ul {
     margin-left: 30px;
 }

@@ -8,6 +8,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import githubIcon from "../components/github-icon.png"
+import globeIcon from "../components/globe-icon.png"
 
 import "./article.css"
 
@@ -18,18 +19,14 @@ const ArticleTemplate = ({data}) => (
             <h1 className='title highlight'>{ data.strapiArticle.title }</h1>
             <p className='subtitle'>{ data.strapiArticle.subtitle }</p>
             <div className='external-links'>
-              <a className='external-link' href='google.com'> 
-                <img className='external-link-icon' src={githubIcon}/>
-                <div className='external-link-text-container'>
-                  <p className='external-link-text'>Go to GitHub Project</p>
-                </div>
-              </a>
-              <a className='external-link' src='google.com'> 
-                <img className='external-link-icon' src={githubIcon}/>
-                <div className='external-link-text-container'>
-                  <p className='external-link-text'>Go to GitHub Project</p>
-                </div>
-              </a>
+              <ExternalLink 
+                externallink={ data.strapiArticle.externallink }
+              />
+              <GithubLink 
+                githublink={ data.strapiArticle.githublink }
+              />
+
+
             </div>
           </div>
           
@@ -38,6 +35,38 @@ const ArticleTemplate = ({data}) => (
         </div>
     </Layout>
 )
+
+function ExternalLink(props) {
+
+  if( props.externallink !== 'none')
+  {
+    return ( 
+      <a className='external-link' href={ props.externallink }>
+        <img className='external-link-icon' src={globeIcon}/>
+        <div className='external-link-text-container'>
+          <p className='external-link-text'>Go to External Page</p>
+        </div>
+      </a>
+    )
+  }
+  return null;
+}
+
+function GithubLink(props) {
+
+  if( props.githublink !== 'none')
+  {
+    return ( 
+      <a className='external-link' href={ props.githublink }>
+        <img className='external-link-icon' src={githubIcon}/>
+        <div className='external-link-text-container'>
+          <p className='external-link-text'>Go to Github Page</p>
+        </div>
+      </a>
+    )
+  }
+  return null;
+}
 
 let convertMarkdown = (md) => 
 {
@@ -53,6 +82,8 @@ export const query = graphql`
       title
       subtitle
       content
+      githublink
+      externallink
       cover {
           childImageSharp {
             fluid(maxWidth: 960) {
