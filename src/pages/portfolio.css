@@ -14,6 +14,7 @@ a:link {
 }
 
 .portfolio-container {
+    position: relative;
     top: 100px;
     width: 95%;
     margin: 0 auto;
@@ -23,15 +24,15 @@ a:link {
     overflow: hidden;
     display: inline-block;
     margin: 10px;
-    width: 250px;
-    height: 250px;
+    width: 225px;
+    height: 225px;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: lightblue;
 }
 
 .portfolio-item-wide {
-    width: 520px;
+    width: 470px;
 }
 
 .portfolio-item-wide .portfolio-detail .portfolio-detail-content {

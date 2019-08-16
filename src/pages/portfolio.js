@@ -17,11 +17,11 @@ const masonryOptions = {
 
 const PortfolioPage = ({data}) => (
     <Layout>
-        {/* <div className='portfolio-container'> */}
-            <div
+        <div className='portfolio-container'>
+            {/* <div
                 className={'portfolio-container'} 
                 options={masonryOptions}
-            >
+            > */}
                 {data.allStrapiArticle.edges.map(document => (
                     <PortfolioItem 
                         key = { document.node.id }
