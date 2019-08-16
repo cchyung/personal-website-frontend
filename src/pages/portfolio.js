@@ -18,7 +18,7 @@ const masonryOptions = {
 const PortfolioPage = ({data}) => (
     <Layout>
         {/* <div className='portfolio-container'> */}
-            <Masonry
+            <div
                 className={'portfolio-container'} 
                 options={masonryOptions}
             >
@@ -33,7 +33,7 @@ const PortfolioPage = ({data}) => (
                         wide = { document.node.wide }
                     />
                 ))}
-            </Masonry>
+            </div>
         {/* </div> */}
     </Layout>
 )
