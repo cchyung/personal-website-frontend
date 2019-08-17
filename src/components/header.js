@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
         <ul className='nav'>
           <li className='nav-item'><Link to="/"><em className='highlight-hover'>Home</em></Link></li>          
           <li className='nav-item'><Link to="portfolio"><em className='highlight-hover'>Projects</em></Link></li>          
-          <li className='nav-item'><a href="https://www.dropbox.com/s/qnvcqlpv45um47p/Conner%20Chyung%20Product%20Management%2010-15.pdf?dl=1"><em className='highlight-hover'>Resume</em></a></li>
+          <li className='nav-item'><a href="https://www.dropbox.com/s/k8bf13p84uouhnj/Conner%20Chyung%20Resume%20Fall%202019.pdf?dl=1"><em className='highlight-hover'>Resume</em></a></li>
           {/* <li className='nav-item'><em className='highlight-hover'>Contact</em></li> */}
         </ul>
 
