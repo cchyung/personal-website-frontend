@@ -29,7 +29,7 @@ const PortfolioPage = ({data}) => (
                         title = { document.node.title } 
                         subtitle = { document.node.subtitle }
                         description = { document.node.description }
-                        icon = { document.node.icon.childImageSharp.fixed.src }
+                        icon = { document.node.icon }
                         wide = { document.node.wide }
                     />
                 ))}
@@ -52,6 +52,7 @@ export const pageQuery = graphql`
           description
           wide
           icon {
+              publicURL
               childImageSharp {
                   fixed {
                     src
