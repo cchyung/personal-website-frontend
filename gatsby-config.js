@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Conner\'s Portfolio Website',
-    description: 'Gatsby blog with Strapi',
+    description: 'My personal project portfolio. Come see all the random stuff I\'ve been working on!',
     author: 'Conner Chyung'
   },
   plugins: [
