@@ -23,7 +23,7 @@ const IndexPage = ({ data }) => (
               I'm a rising senior studying Computer Engineering, Computer Science at the University of Southern California
             </p>
             <p>
-              I’m passionate about machine learning, digital design, euntrepeneurship, and music production.
+              I’m passionate about machine learning, digital design, entrepreneurship, and music production.
             </p>
             <p>
               Currently a Software Engineering Intern at Visa Inc.
