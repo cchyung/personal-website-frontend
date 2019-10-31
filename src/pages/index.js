@@ -20,13 +20,13 @@ const IndexPage = ({ data }) => (
           <div className='intro-text'>
             <h2>Hi, I'm Conner Chyung</h2>
             <p>
-              I'm a rising senior studying Computer Engineering, Computer Science at the University of Southern California
+              I'm currently senior studying Computer Engineering, Computer Science at the University of Southern California.
             </p>
             <p>
-              I’m passionate about machine learning, digital design, entrepreneurship, and music production.
+              I’m passionate about machine learning, digital design, product management, entrepreneurship, and music production.
             </p>
             <p>
-              Currently a Software Engineering Intern at Visa Inc.
+              Previously a Software Engineering Intern at Visa Inc.
             </p>
             <p>
               <Link to='portfolio' id="see-more-btn" className='highlight-hover'>Here’s what I’ve been up to.</Link>
