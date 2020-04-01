@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
         </ul>
 
         <div className='social-icons'>
-          <a className='social-icon' src='https://soundcloud.com/taejinmusic'>
+          <a className='social-icon' src='https://github.com/cchyung'>
             <img src={githubIcon}/>
           </a>
           <a className='social-icon' src='https://www.linkedin.com/in/connerchyung/'>
